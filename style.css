@@ -1,0 +1,80 @@
+#Alinhar{
+    font-family: Poppins sans-serif;
+    background: linear-gradient(to bottom, #d4e1fa , #ced6e4);
+    color: #333;
+    line-height: 1.6;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+h1{
+    text-align: center;
+    color: rgb(189, 63, 31);
+    font-size: 4rem;
+    margin-bottom: 30px;
+    
+}
+h2{
+    color: black;
+    margin-top: 20px;
+    text-align: center;
+    
+}
+h3{
+    color: black;
+    margin-top: 20px;
+    text-align: center  ;
+}
+img{
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 12px;
+    margin: 10px 0px;
+    
+}
+.img-centralizada {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+a{
+    color: #f31d1d;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+.menu-vertical{
+    width: 200px;/*largura do menu*/
+    height: 100vh;/*altura ´gual à altura total da janela de visualização (Video Height)*/
+    position: fixed;/*Menufixo na lateral da tela*/
+    background-color: black;/*Cor de fundo menu*/
+    padding-top: 40px;/*Distância superior do conteúdo*/
+    margin-top: -8px;/*Distância superior entre o menu e o topo da página*/
+    margin-left: -8px;/*Distância entre o menu e a borda esquerda da página*/
+}
+.menu-vertical ul{
+    list-style: none;/*Remove os ícones de ponto dos itens da lista*/
+    padding: 0;/*Remover o espaço enterno padrãodos elemntos da lista*/
+}
+.menu-vertical a{
+    display: block;/*Faz com que o link ocupe toda a alargura disponível, como se fosse um bloco*/
+    color: white;/*Cordo texto*/
+    padding: 15px;/*Espaço ao redor do texto*/
+    text-decoration: none;/*Remove o sublinhado do link*/
+    transition: background 0,5s;/*Se existe um evento hover para mudança de cor de fundo, ele suavizará essa mudança, deixando gradativa a intersificação da cor, neste caso deixamos a mudança definida em 0.5s*/
+}
+.menu-vertical a:hover{
+    background-color: rgb(62, 62, 190);
+}
+#carrossel-Slides{
+    width: 100%;
+    border-radius: 12px;
+}
+hr{
+    width: 20%;
+    background-color: black;
+}
+p{
+    padding: 10px;
+}
